@@ -1,0 +1,864 @@
+#base "pool_elite_boss.kv"
+"Pools"
+{
+"pool_n"
+{
+"item_build_t01" "1"
+"item_build_t02" "1"
+"item_build_t05" "1"
+"item_build_t06" "1"
+"item_build_t13" "1"
+"item_build_t14" "1"
+"item_build_t17" "1"
+"item_build_t18" "1"
+"item_build_t20" "1"
+"item_build_t23" "1"
+"item_build_t24" "1"
+// "item_build_t26" "1"
+"item_build_t30" "1"
+"item_build_t31" "1"
+"item_build_t33" "1"
+"item_build_t41" "1"
+}
+"pool_r"
+{
+"item_build_t03" "1"
+"item_build_t04" "1"
+"item_build_t07" "1"
+"item_build_t08" "1"
+"item_build_t09" "1"
+"item_build_t10" "1"
+"item_build_t11" "1"
+"item_build_t12" "1"
+"item_build_t15" "1"
+"item_build_t16" "1"
+"item_build_t19" "1"
+"item_build_t21" "1"
+"item_build_t22" "1"
+"item_build_t25" "1"
+"item_build_t27" "1"
+"item_build_t28" "1"
+"item_build_t29" "1"
+"item_build_t32" "1"
+"item_build_t34" "1"
+"item_build_t36" "1"
+"item_build_t37" "1"
+"item_build_t38" "1"
+"item_build_t39" "1"
+"item_build_t40" "1"
+}
+"pool_sr"
+{
+"item_build_npc_dota_hero_luna" "10"
+"item_build_npc_dota_hero_dragon_knight" "5"
+"item_build_npc_dota_hero_slardar" "10"
+"item_build_npc_dota_hero_slark" "10"
+"item_build_npc_dota_hero_ursa" "10"
+"item_build_npc_dota_hero_crystal_maiden" "10"
+"item_build_npc_dota_hero_juggernaut" "10"
+"item_build_npc_dota_hero_sven" "10"
+"item_build_npc_dota_hero_ogre_magi" "10"
+"item_build_npc_dota_hero_medusa" "10"
+"item_build_npc_dota_hero_drow_ranger" "10"
+"item_build_npc_dota_hero_tiny" "10"
+"item_build_npc_dota_hero_leshrac" "10"
+"item_build_npc_dota_hero_shadow_shaman" "10"
+"item_build_npc_dota_hero_kunkka" "10"
+"item_build_npc_dota_hero_bounty_hunter" "10"
+"item_build_npc_dota_hero_necrolyte" "10"
+"item_build_npc_dota_hero_centaur" "10"
+// "item_build_t35" "10"
+"item_build_npc_dota_hero_phantom_assassin" "10"
+"item_build_npc_dota_hero_obsidian_destroyer" "10"
+"item_build_npc_dota_hero_zuus" "10"
+"item_build_npc_dota_hero_antimage" "10"
+"item_build_npc_dota_hero_lycan" "10"
+"item_build_npc_dota_hero_death_prophet" "10"
+"item_build_npc_dota_hero_pangolier" "10"
+"item_build_npc_dota_hero_lion" "10"
+"item_build_npc_dota_hero_abyssal_underlord" "10"
+"item_build_npc_dota_hero_skywrath_mage" "10"
+"item_build_npc_dota_hero_huskar" "10"
+"item_build_npc_dota_hero_undying" "10"
+"item_build_npc_dota_hero_viper" "10"
+"item_build_npc_dota_hero_venomancer" "10"
+"item_build_npc_dota_hero_omniknight" "10"
+"item_build_npc_dota_hero_magnataur" "10"
+"item_build_npc_dota_hero_keeper_of_the_light" "10"
+"item_build_npc_dota_hero_earth_spirit" "10"
+"item_build_npc_dota_hero_vengefulspirit" "10"
+"item_build_npc_dota_hero_enchantress" "10"
+"item_build_npc_dota_hero_life_stealer" "10"
+"item_build_npc_dota_hero_pudge" "10"
+"item_build_npc_dota_hero_bristleback" "10"
+"item_build_npc_dota_hero_snapfire" "10"
+"item_build_npc_dota_hero_windrunner" "10"
+}
+"pool_ssr"
+{
+"item_build_npc_dota_hero_clinkz" "1"
+"item_build_npc_dota_hero_lina" "1"
+"item_build_npc_dota_hero_nevermore" "1"
+"item_build_npc_dota_hero_axe" "1"
+"item_build_npc_dota_hero_skeleton_king" "1"
+"item_build_npc_dota_hero_ember_spirit" "1"
+"item_build_npc_dota_hero_monkey_king" "1"
+"item_build_npc_dota_hero_shredder" "1"
+"item_build_npc_dota_hero_tinker" "1"
+// "item_build_npc_dota_hero_furion" "1"
+"item_build_npc_dota_hero_spectre" "1"
+"item_build_npc_dota_hero_templar_assassin" "1"
+"item_build_npc_dota_hero_sniper" "1"
+"item_build_npc_dota_hero_mirana" "1"
+"item_build_npc_dota_hero_queenofpain" "1"
+"item_build_npc_dota_hero_night_stalker" "1"
+"item_build_npc_dota_hero_storm_spirit" "1"
+"item_build_npc_dota_hero_void_spirit" "1"
+"item_build_npc_dota_hero_earthshaker" "1"
+"item_build_npc_dota_hero_lone_druid" "1"
+"item_build_npc_dota_hero_brewmaster" "1"
+"item_build_npc_dota_hero_bloodseeker" "1"
+"item_build_npc_dota_hero_mars" "1"
+"item_build_npc_dota_hero_jakiro" "1"
+
+}
+// "pool_start_pick"
+// {
+// "item_build_t08" "1"
+// "item_build_t10" "1"
+// "item_build_t15" "1"
+// "item_build_t16" "1"
+// "item_build_t22" "1"
+// "item_build_t36" "1"
+// "item_build_t12" "1"
+//}
+
+"pool_keys_1"
+{
+"item_key_01" "70"
+"item_key_02" "25"
+"item_key_03" "5"
+"item_key_04" "0"
+"item_key_05" "0"
+}
+"pool_keys_2"
+{
+"item_key_01" "50"
+"item_key_02" "30"
+"item_key_03" "10"
+"item_key_04" "8"
+"item_key_05" "0"
+}
+"pool_keys_3"
+{
+"item_key_01" "35"
+"item_key_02" "30"
+"item_key_03" "20"
+"item_key_04" "10"
+"item_key_05" "0"
+}
+"pool_keys_4"
+{
+"item_key_01" "25"
+"item_key_02" "25"
+"item_key_03" "25"
+"item_key_04" "20"
+"item_key_05" "0"
+}
+"pool_keys_5"
+{
+"item_key_01" "20"
+"item_key_02" "20"
+"item_key_03" "25"
+"item_key_04" "25"
+"item_key_05" "0"
+}
+"pool_chests_1"
+{
+"item_chest_01" "50"
+"item_chest_02" "40"
+"item_chest_03" "10"
+"item_chest_04" "0"
+"item_chest_05" "0"
+}
+"pool_chests_2"
+{
+"item_chest_01" "20"
+"item_chest_02" "40"
+"item_chest_03" "20"
+"item_chest_04" "10"
+"item_chest_05" "2"
+}
+"pool_chests_3"
+{
+"item_chest_01" "0"
+"item_chest_02" "20"
+"item_chest_03" "50"
+"item_chest_04" "20"
+"item_chest_05" "10"
+}
+"pool_chests_4"
+{
+"item_chest_01" "0"
+"item_chest_02" "0"
+"item_chest_03" "40"
+"item_chest_04" "50"
+"item_chest_05" "10"
+}
+"pool_chests_5"
+{
+"item_chest_01" "0"
+"item_chest_02" "0"
+"item_chest_03" "30"
+"item_chest_04" "60"
+"item_chest_05" "20"
+}
+
+"pool_hot_heroes"
+{
+// "item_build_npc_dota_hero_phantom_assassin" "10"
+// "item_build_npc_dota_hero_zuus" "10"
+// "item_build_npc_dota_hero_ursa" "10"
+//"item_build_npc_dota_hero_clinkz" "10"
+// "item_build_npc_dota_hero_medusa" "10"
+// "item_build_npc_dota_hero_centaur" "10"
+// "item_build_npc_dota_hero_axe" "10"
+// "item_build_npc_dota_hero_shredder" "15"
+// "item_build_npc_dota_hero_ember_spirit" "10"
+// "item_build_npc_dota_hero_antimage" "10"
+// "item_build_npc_dota_hero_ogre_magi" "10"
+//"item_build_npc_dota_hero_tinker" "10"
+// "item_build_npc_dota_hero_death_prophet" "10"
+// "item_build_npc_dota_hero_lycan" "10"
+// "item_build_npc_dota_hero_nevermore" "10"
+// "item_build_npc_dota_hero_kunkka" "10"
+// "item_build_npc_dota_hero_luna" "10"
+// "item_build_npc_dota_hero_pangolier" "5"
+// "item_build_npc_dota_hero_tiny" "10"
+//"item_build_npc_dota_hero_lion" "10"
+//"item_build_npc_dota_hero_skeleton_king" "12"
+//"item_build_npc_dota_hero_shadow_shaman" "12"
+//"item_build_npc_dota_hero_kunkka" "12"
+//"item_build_npc_dota_hero_spectre" "10"
+"item_build_npc_dota_hero_templar_assassin" "10"
+"item_build_npc_dota_hero_sniper" "10"
+//"item_build_npc_dota_hero_skywrath_mage" "10"
+// "item_build_npc_dota_hero_abyssal_underlord" "10"
+//"item_build_npc_dota_hero_huskar" "10"
+//"item_build_npc_dota_hero_lina" "10"
+// "item_build_npc_dota_hero_monkey_king" "10"
+//"item_build_npc_dota_hero_undying" "10"
+"item_build_npc_dota_hero_mirana" "10"
+"item_build_npc_dota_hero_queenofpain" "10"
+//"item_build_npc_dota_hero_viper" "10"
+//"item_build_npc_dota_hero_venomancer" "10"
+//"item_build_npc_dota_hero_omniknight" "10"
+// "item_build_npc_dota_hero_magnataur" "10"
+// "item_build_npc_dota_hero_keeper_of_the_light" "5"
+//"item_build_npc_dota_hero_night_stalker" "10"
+"item_build_npc_dota_hero_storm_spirit" "10"
+// "item_build_npc_dota_hero_void_spirit" "10"
+// "item_build_npc_dota_hero_earth_spirit" "10"
+// "item_build_npc_dota_hero_earthshaker" "10"
+// "item_build_npc_dota_hero_shredder" "10"
+// "item_build_npc_dota_hero_vengefulspirit" "10"
+// "item_build_npc_dota_hero_lone_druid" "10"
+//"item_build_npc_dota_hero_brewmaster" "10"
+"item_build_npc_dota_hero_enchantress" "10"
+"item_build_npc_dota_hero_slark" "10"
+"item_build_npc_dota_hero_bloodseeker" "10"
+"item_build_npc_dota_hero_life_stealer" "10"
+"item_build_npc_dota_hero_pudge" "10"
+// "item_build_npc_dota_hero_bristleback" "10"
+"item_build_npc_dota_hero_snapfire" "10"
+"item_build_npc_dota_hero_windrunner" "10"
+"item_build_npc_dota_hero_jakiro" "10"
+
+}
+
+"pool_equip_d"
+{
+"item_javelin_custom" "75"//Javelin
+"item_claymore" "75"//Great Sword
+"item_quarterstaff" "100"//short stick
+"item_blades_of_attack" "100"//attack claw
+"item_circlet_custom" "75"//Noble circle
+"item_blade_of_alacrity_custom" "100"//Blade of Delight
+"item_vitality_booster_custom" "100"//Vitality Ball
+"item_gauntlets_custom" "75"//Power Gloves
+"item_mithril_hammer" "75"//Mithril Hammer
+"item_slippers_custom" "75"//Agile slippers
+"item_staff_of_wizardry_custom" "100"//Magic staff
+"item_energy_booster_custom" "100"//ball of energy
+"item_ogre_axe_custom" "100"//Ogre Axe
+"item_void_stone_custom" "100"//Void Stone
+"item_belt_of_strength_custom" "75"//Strength belt
+"item_sobi_mask_custom" "100"//Sage mask
+"item_mantle_custom" "75"//Cape of Intelligence
+"item_tome_of_experience" "100"//Book of experience
+"item_gem" "0"//True Vision Gem
+"item_spirit_stone" "100"//Spirit gem
+"item_robe_custom" "75"//Mage's Robe
+"item_gloves" "100"//speeding gloves
+"item_boots_of_elves_custom" "75"//Elves leather boots
+"item_point_booster_custom" "100"//Essence Ball
+"item_broadsword" "100"//Broad sword
+"item_clarity_custom" "0"//purification potion
+"item_ward_sentry_custom" "0"//Sentry guard
+"item_little_blight_stone" "100"//Blight Stone
+"item_quelling_blade_custom" "100"//quelling blade
+"item_shadow_amulet_custom" "100"//Shadow Amulet
+"item_ghost_custom" "100"//Ghost Scepter
+}
+
+"pool_equip_c"
+{
+"item_kaya_custom" "100"//Huiguang
+"item_tome_of_knowledge_custom" "0"//The Book of Knowledge Lv.1
+"item_necronomicon_custom" "100"//Necronomicon Lv.1
+"item_necronomicon_2_custom" "0"//Necronomicon Lv.2
+"item_necronomicon_3_custom" "0"//Necronomicon Lv.3
+"item_rod_of_atos_custom" "100"//The Rod of Atos
+"item_demon_edge" "100"//Demon Blade
+"item_ultimate_orb_custom" "100"//Extreme Orb
+"item_eagle_custom" "75"//Eagle song bow
+"item_null_talisman_custom" "75"//Ethereal pendant
+"item_oblivion_staff_custom" "100"//Empty staff
+"item_bracer_custom" "75"//Wristguard
+"item_reaver_custom" "75"//Reaver's Axe
+"item_sange_custom" "100"//Sange
+"item_yasha_custom" "100"//Yasha
+"item_mystic_staff_custom" "75"//Mystic Staff
+"item_ring_of_basilius_custom" "100"//The Ring of Kings
+"item_relic" "75"//The saint's relic
+"item_wraith_band_custom" "75"//Wraith Band
+"item_soul_ring_custom" "75"//Soul Ring
+"item_tpscroll_custom" "0"//Return to the city scroll
+"item_hyperstone" "100"//Exciting gem
+"item_part_of_contracts" "100"//The contract page
+"item_ring_of_tarrasque_custom" "100"//The Ring of Tarrasque
+"item_aether_lens_custom" "100"//Ethernet lens
+}
+
+"pool_recipe_c"
+{
+"item_recipe_part_of_contracts" "100"//Contract fragment making book
+// "item_recipe_rod_of_atos_custom" "75"//Atos rod making book
+"item_recipe_null_talisman_custom" "100"//Ethereal pendant making book
+"item_recipe_oblivion_staff_custom" "0"//Empty rod making book
+"item_recipe_bracer_custom" "100"//Wrist guard making book
+"item_recipe_sange_custom" "0"//Sange production book
+"item_recipe_yasha_custom" "0"//Yasha making book
+"item_recipe_kaya_custom" "0"//Huiguang made a book
+"item_recipe_ring_of_basilius_custom" "0"//The King's Ring Making Book
+"item_recipe_necronomicon_custom" "75"//Necronomicon making book
+"item_recipe_wraith_band_custom" "100"//Wraith Band Making Book
+"item_recipe_tome_of_knowledge_custom" "0"//The book of knowledge
+"item_recipe_soul_ring_custom" "0"//Soul Ring Making Book
+"item_recipe_aether_lens_custom" "0"//Aether lens making book
+}
+
+"pool_equip_b"
+{
+"item_cyclone_custom" "100"//Eul's holy staff
+"item_blight_stone_custom" "100" // Desolation
+"item_eye_of_frost" "100"//Cold Core
+"item_dagon_custom" "100"//The power of Dagon
+"item_dagon_2_custom" "0"//Dagon Power 2
+"item_dagon_3_custom" "0"//The power of Dagon 3
+"item_dagon_4_custom" "0"//Dagon Power 4
+"item_dagon_5_custom" "0"//Dagon Power 5
+"item_veil_of_discord_custom" "100"//Veil of Discord
+"item_radiance_custom" "100"//Hui Yao
+"item_radiance_2_custom" "75"//Hui Yao 2
+"item_radiance_3_custom" "75"//Hui Yao 3
+"item_crescent_bow" "100"//Crescent Bow
+"item_bfury_custom" "100"//Battle Fury
+"item_ancient_janggo_custom" "75"//Janggo
+"item_kaya_and_sange_custom" "100"//Sange against the sword
+"item_sange_and_yasha_custom" "100"//Sange against the sword
+"item_yasha_and_kaya_custom" "100"//Hui Ye against the sword
+"item_lesser_crit_custom" "100"//Crystal Sword
+// "item_ring_of_aquila_custom" "75"//Aquila ring
+"item_vladmir_custom" "100"//Vladmir's offering
+"item_moon_shard_custom" "100"//Silver Moon Crystal
+"item_soul_booster_custom" "100"//Vibrating Soul Stone
+"item_sealed_apotheosis_blade" "100"//The Sealed Apotheosis Blade
+"item_sealed_ring_of_disaster" "100"//The Sealed Ring of Disaster
+"item_orchid_custom" "100"//Aster
+"item_necronomicon_4_custom" "75"//Necronomicon MAX
+"item_hand_of_midas_custom" "100"//The Hand of Midas
+"item_travel_boots_custom" "0"//Travel shoes
+"item_meteor_hammer_custom" "100"//Meteor Hammer
+"item_dragon_lance_custom" "100"//Dragon Gun
+"item_echo_sabre_custom" "100"//Echo Sabre
+"item_diffusal_blade_custom" "100"//Diffusal Blade
+"item_tome_of_energy" "0"//Book of Energy
+"item_invis_sword_custom" "100"//Shadow Blade
+"item_wind_lace_custom" "100" //Wind spirit pattern
+"item_force_staff_custom" "100" //The Force Staff
+}
+
+"pool_recipe_b"
+{
+"item_recipe_orchid_custom" "75"//Aster production book
+"item_recipe_hand_of_midas_custom" "75"//Midas Hand Making Book
+"item_recipe_cyclone_custom" "75"//Eul's holy staff making book
+"item_recipe_eye_of_frost" "0"//Cold core making book
+"item_recipe_dagon_custom" "100"//Dagon Power Book
+"item_recipe_veil_of_discord_custom" "100"//Veil of Discord Making Book
+"item_recipe_radiance_custom" "75"//Huiyao makes a book
+"item_recipe_crescent_bow" "100"//Crescent Bow Making Book
+"item_recipe_bfury_custom" "75"//Battle Fury making book
+"item_recipe_ancient_janggo_custom" "100"//Janggo making book
+"item_recipe_lesser_crit_custom" "100"//Crystal sword making book
+"item_recipe_ring_of_aquila_custom" "0"//Aquila Ring Making Book
+"item_recipe_vladmir_custom" "100"//Vladmir's sacrifice making book
+"item_recipe_moon_shard_custom" "75"//Silver Moon Crystal Making Book
+"item_recipe_meteor_hammer_custom" "100"//Meteor hammer making book
+"item_recipe_echo_sabre_custom" "100"//Scroll of Echo Sabre
+"item_recipe_dragon_lance_custom" "0"//Dragon Gun Scroll
+"item_recipe_diffusal_blade_custom" "100"//Diffusal Blade Scroll
+"item_recipe_soul_booster_custom" "0"//Zhenhunshi making book
+"item_recipe_invis_sword_custom" "0"//Shadow Blade Making Book
+}
+
+"pool_equip_a"
+{
+"item_tome_of_knowledge_3_custom" "0"//The Book of Knowledge MAX
+"item_greater_crit_custom" "100"//Criticism of Daedalus
+"item_butterfly_custom" "100"//Butterfly
+"item_blade_of_the_vigil" "100"//The Great Sword of the Night Watch
+"item_desolator_custom" "100"//Desolator Blade
+"item_monkey_king_bar_custom" "100"//Golden Bar
+"item_heart_custom" "100"//Heart of Terror
+"item_mjollnir_custom" "100" // Quake
+"item_assault_custom" "100"//Assault Breastplate
+"item_skadi_custom" "100"//The Eye of Skadi
+"item_shivas_guard_custom" "75"//Shiva's guard
+"item_bloodthorn_custom" "100"//bloodthorn
+"item_bloodstone_custom" "100"//Blood Essence Stone
+"item_obliterating_orb" "100"//Obliterate orb
+"item_tome_of_contracts" "100"//Book of Contracts Lv.1
+"item_tome_of_contracts_2" "0"//Book of Contracts Lv.2
+"item_tome_of_contracts_3" "0"//Book of Contracts Lv.3
+"item_tome_of_knowledge_2_custom" "0"//Book of Knowledge Level 2
+"item_dagon_6_custom" "100"//Dagon Power 6
+"item_radiance_4_custom" "100"//Hui Yao 4
+"item_ring_of_aghanim" "100"//The Ring of Aghanim
+"item_sheepstick_custom" "100"//Evil sickle
+"item_yasha_and_kaya_and_sange" "100"//Sanheng Zhaoshi
+"item_satanic_custom" "100"//The evil power of Satan
+"item_manta_custom" "100"//Manta
+"item_ethereal_blade_custom" "100"//Ethereal Blade
+"item_aeon_disk_custom" "100"//Aeon Disk
+"item_lotus_orb_custom" "100"//Qinglian Orb
+"item_silver_edge_custom" "100" //Silver Edge
+"item_solar_crest_custom_2" "100" //Summon Crest
+"item_aeon_disk_custom_2" "60" //Aeon disk upgrade
+}
+
+"pool_recipe_a"
+{
+"item_recipe_greater_crit_custom" "100"//Criticism of Daedalus
+"item_recipe_butterfly_custom" "100"//Butterfly making book
+"item_recipe_blade_of_the_vigil" "100"//The making book of the night watch
+"item_recipe_desolator_custom" "100"//Desolator making book
+"item_recipe_monkey_king_bar_custom" "75"//Jin Gu Bang making book
+"item_recipe_heart_custom" "100"//Tear Ao Heart Making Book
+"item_recipe_mjollnir_custom" "75"//Thor’s Hammer making book
+"item_recipe_assault_custom" "100"//Assault Breastplate Making Book
+"item_recipe_skadi_custom" "75"//Skati Eye Making Book
+"item_recipe_apotheosis_blade" "0"//Apotheosis Blade Making Book
+"item_recipe_ring_of_disaster" "0"//Book of Disaster Ring
+"item_recipe_shivas_guard_custom" "100"//Shiva's guardian making book
+"item_recipe_bloodthorn_custom" "100"//Bloodthorn making book
+"item_recipe_bloodstone_custom" "100"//Blood Essence Stone Making Book
+"item_recipe_obliterating_orb" "0"//Obliterating orb making book
+"item_recipe_tome_of_contracts" "100"//Book of Contract Making Book
+"item_recipe_ring_of_aghanim" "100"//Akhalim's Book of Rings
+"item_recipe_sheepstick_custom" "100"//Evil sickle making book
+"item_recipe_yasha_and_kaya_and_sange" "100"//Book made by Sanheng Zhaoshi
+"item_recipe_satanic_custom" "100"//Satan’s evil force making book
+"item_recipe_manta_custom" "100"//Phantom Axe Making Book
+"item_recipe_holy_cape_custom" "0"//Holy cloak making book
+"item_recipe_ethereal_blade_custom" "100"// Ethereal Blade Making Book
+"item_recipe_aeon_disk_custom" "100"//Aeon Disk
+"item_recipe_lotus_orb_custom" "100"//Qinglian Orb
+"item_recipe_silver_edge_custom" "100"//Silver Edge
+"item_recipe_glimmer_cape_custom" "100"//Necromancer cape making book
+"item_recipe_solar_crest_custom" "100"//Summon Crest Making Book
+"item_recipe_aeon_disk_custom_2" "60"//Aeon disk upgrade making book
+}
+
+"pool_equip_s"
+{
+"item_ultimate_scepter_custom" "100"//Aghanim's Scepter
+"item_cloak_of_endless_carnage" "100"//Exhausted cloak
+"item_cloak_of_endless_carnage_2" "0"//Endless Cloak 2
+"item_cloak_of_endless_carnage_3" "0"//Endless Cloak 3
+"item_shine_of_the_madmoon" "100"//Light of the Madmoon
+"item_jasper_daggers" "100"//jasper dagger
+"item_demagicking_maul" "100"//Demagicking Maul
+"item_rapier_custom" "100"//Holy Sword
+"item_octarine_core_custom" "100"//Ling Long Xin
+"item_radiance_heart" "100"//Demon spirit
+"item_meteor_grimoire" "100"//Meteor Grimoire
+"item_pin_of_the_sea_custom" "100"//Shenzhen
+"item_havoc_hammer_custom" "100"//Havoc Hammer
+"item_paladin_sword_custom" "100"//forgive sword
+"item_glimmer_cape_custom" "100"//Necromancer's cape
+"item_nullifier_custom" "100"//Reject ornaments
+"item_holy_locket_custom" "100"//Phantom Pendant
+"item_solar_crest_custom_3" "100"//Summon Crest
+}
+
+"pool_recipe_s"
+{
+"item_recipe_cloak_of_endless_carnage" "100"//Cloak making book
+"item_recipe_shine_of_the_madmoon" "80"//Madmoon of Madmoon
+"item_recipe_jasper_daggers" "80"//Jade dagger making book
+"item_recipe_demagicking_maul" "80"//Maul of Demagicking Maul
+"item_recipe_ultimate_scepter_custom" "80"//Aghanim's Scepter Making Book
+"item_recipe_rapier_custom" "75"//Holy sword making book
+"item_recipe_octarine_core_custom" "100"//Linglongxin production book
+"item_recipe_radiance_heart" "100"//Making Book by the Spirit of the Demon
+"item_recipe_meteor_grimoire" "100"//Materials of Meteorite Grimoire
+"item_recipe_pin_of_the_sea_custom" "100"//Shenzhen production book
+"item_recipe_havoc_hammer_custom" "100"//Havoc Havoc Making Book
+"item_recipe_paladin_sword_custom" "100"//Forgive Sword Making Book
+"item_recipe_nullifier_custom" "100"//Reject the pendant making book
+"item_recipe_holy_locket_custom" "100"//Phantom Pendant Making Book
+"item_recipe_solar_crest_custom_3" "100" //Summon heraldic making book 3
+}
+
+"pool_card_1"
+{
+"item_card_01" "90"
+"item_card_02" "10"
+"item_card_03" "0"
+}
+"pool_card_2"
+{
+"item_card_01" "50"
+"item_card_02" "40"
+"item_card_03" "10"
+}
+"pool_card_3"
+{
+"item_card_01" "20"
+"item_card_02" "40"
+"item_card_03" "40"
+}
+
+"pool_chest_pray_lower"
+{
+"item_chest_01" "30"
+"item_chest_02" "25"
+"item_chest_03" "5"
+"item_chest_04" "0"
+"item_chest_05" "0"
+}
+"pool_chest_pray_medium"
+{
+"item_chest_01" "10"
+"item_chest_02" "20"
+"item_chest_03" "30"
+"item_chest_04" "10"
+"item_chest_05" "0"
+}
+"pool_chest_pray_senior"
+{
+"item_chest_01" "0"
+"item_chest_02" "15"
+"item_chest_03" "30"
+"item_chest_04" "15"
+"item_chest_05" "5"
+}
+// Overload random halo skills
+"pool_venture_aura"
+{
+"aura_durable" "100"
+"aura_dark" "100"
+"aura_evil" "100"
+"aura_slow" "100"
+"aura_magic_drain" "100"
+"aura_life_inhibition" "100"
+}
+// Overload random other skills
+"pool_venture_skill"
+{
+"fast_repair" "50" // fast healing
+"cowardly_rush" "100"
+"stinky" "100"
+"conjured_health" "100"
+"tortoise_taunt" "60" // Hard shell turtle
+"nihility" "20" // nothingness
+"natural_power" "100"
+"ass_hole_jump" "80" // Wormhole Jump
+"mana_shield" "100"
+"mercy" "100"
+"sprint" "100"
+"rampage" "100"
+"paddling" "100"
+"stomp" "80" // wind pressure
+"insulation" "100"
+"phase_book" "100"
+"life_power" "100"
+"bloodthirsty" "100"
+"girls_defense" "100"
+"advanced_nihility" "100"
+// "slink" "100"
+"soft_body" "100"
+"witchcraft_mastery" "100"
+"resist" "100"
+"peace" "100"
+"haste_run" "100"
+"blink" "100"
+"undying_zombi" "10" // thin burial
+"dexterous" "100"
+"chaos_strike" "100"
+"range_silence" "100"
+"w40_unreal_new" "20" // The Shining
+"w41_astral_imprisonment" "10" // astral exile
+"w42_grow" "100"
+"w43_justice_shield_new" "100"
+// "drilling" "100"
+"time_lock" "10" // Condensation of the void
+"w46_plague_ward" "50" //Vicious snake stick
+"w47_siren_song_of_the_siren" "10" //Song of the Siren
+"w48_shy_sheep_new" "100"
+"super_nova" "20" // Supernova
+"w50_doom" "5" // Doom
+"endless_1" "100"
+"endless_2" "100"
+// "endless_3" "100" // Shark balloon
+"petrified_parrot" "50"
+"petrified_artillery_car" "100"
+"ghost" "100"
+"coward" "100"
+"small_fish" "60"
+"sky_dog" "100"
+"magic_elder" "5"
+"separation_dragon" "100"
+}
+// Endless random halo skills
+"pool_endless_aura"
+{
+"aura_durable" "100"
+"aura_dark" "100"
+"aura_evil" "100"
+"aura_slow" "100"
+"aura_magic_drain" "100"
+"aura_life_inhibition" "100"
+}
+// Endless random skills
+"pool_endless_skill"
+{
+"fast_repair" "30" // Fast healing
+"cowardly_rush" "100"
+"stinky" "100"
+"conjured_health" "100"
+"tortoise_taunt" "60" // Hard shell turtle
+"nihility" "50" // nothingness
+"natural_power" "100"
+"ass_hole_jump" "80" // Wormhole Jump
+"mana_shield" "100"
+"mercy" "100"
+"sprint" "100"
+"rampage" "100"
+"paddling" "100"
+"stomp" "80" // wind pressure
+"insulation" "100"
+"phase_book" "100"
+"life_power" "100"
+"bloodthirsty" "100"
+"girls_defense" "100"
+"advanced_nihility" "100"
+// "slink" "100" invisible
+"soft_body" "100"
+"witchcraft_mastery" "100"
+"resist" "100"
+"peace" "100"
+"haste_run" "100"
+"blink" "100"
+"undying_zombi" "10" // thin burial
+"dexterous" "100"
+"chaos_strike" "100"
+"range_silence" "100"
+"w40_unreal_new" "20" // The Shining
+"w41_astral_imprisonment" "10" // astral exile
+"w42_grow" "100"
+"w43_justice_shield_new" "100"
+// "drilling" "100" invisible
+"time_lock" "10" // Condensation of the void
+// "w46_plague_ward" "50" //Vicious snake stick
+"w47_siren_song_of_the_siren" "10" //Song of the Siren
+"w48_shy_sheep_new" "100"
+"super_nova" "20" // Supernova
+"w50_doom" "5" // Doom
+"endless_1" "100"
+"endless_2" "100"
+// "endless_3" "100" // Shark balloon
+"petrified_parrot" "50"
+"petrified_artillery_car" "100"
+"ghost" "100"
+"coward" "100"
+"small_fish" "60"
+"sky_dog" "100"
+"magic_elder" "10"
+"separation_dragon" "60"
+}
+"pool_brewmaster_qualification_abilities"
+{
+"qualification_build_t27" "1"
+"qualification_build_t28" "1"
+"qualification_build_t29" "1"
+}
+//
+// 1 gold coin, 1 treasure box, 1 trap
+// 2 gold coins and 1 treasure chest
+// 2 gold coins and 1 trap
+// 2 treasure chests and 1 gold coin
+// 2 treasure chests and 1 trap
+// 2 traps 1 gold coin
+// 2 traps and 1 treasure chest
+// 3 gold coins
+// 3 treasure chests
+// 3 traps
+"pool_builder_try_luck"
+{
+"1" "60"
+"2" "30"
+"3" "30"
+"4" "30"
+"5" "30"
+"6" "30"
+"7" "30"
+"8" "10"
+"9" "10"
+"10" "10"
+}
+//Gold coins, treasure chests, clips
+"pool_builder_try_luck_reward_1"
+{
+
+"item_card_02,1" "8"//Random R card
+"item_gold,500-2000" "10"//2000 gold coins
+
+
+"pool_equip_a" "10"//A random two-star equipment
+"item_crystal,50-100" "8"//50 soul crystal
+"pool_neutral_item_1" "10"//Level 1 neutral equipment
+}
+//Gold coins, gold coins, treasure chests/clips
+"pool_builder_try_luck_reward_2"
+{
+//"item_gold_summon_round_times,0" "10"//10000*summon times*current wave
+//"item_xp_summon_round_times,0" "10"//2000*summon times*current wave
+//"item_per_gold_summon_round_times,0" "10"//10*number of summons*current wave of gold coins per second
+"item_card_03,1" "8"//Random golden draw card
+"item_gold,3000-10000" "10"//10 thousand gold coins
+"item_tome_of_stats_10,1-5" "10"//10-30 property books\
+"item_crystal,200-300" "8"//50 soul crystal
+
+
+}
+//Treasure chest, treasure chest, gold coin/clip
+"pool_builder_try_luck_reward_3"
+{
+"item_chest_02,1" "8"//Bronze Treasure Box
+"item_chest_03,1" "10"//Silver Treasure Box
+"item_chest_04,1" "8"//Emerald Treasure Box
+}
+//Clip, clip, gold coin/treasure chest
+"pool_builder_try_luck_reward_4"
+{
+"pool_equip_s" "3"//A random piece of red equipment
+"pool_neutral_item_2" "10"//Random secondary neutral items
+"pool_neutral_item_3" "10"//Random three-level neutral equipment
+}
+//Gold coins, gold coins, gold coins
+"pool_builder_try_luck_reward_5"
+{
+"item_tome_of_stats_10,10-30" "8"//10-30 property books
+"item_gold,50000-100000" "10"/100 thousand gold coins
+"item_gold_limit,0" "4"//1 million gold coin limit
+}
+//Treasure chest, treasure chest, treasure chest
+"pool_builder_try_luck_reward_6"
+{
+"item_chest_04,1" "7"//Emerald Treasure Box
+
+"item_chest_05,1" "7"//Golden Treasure Box
+
+}
+//Clip, clip, clip
+"pool_builder_try_luck_reward_7"
+{
+"pool_neutral_item_5" "10"//Random level five neutral items
+"item_all_damage_pct,0" "8"//20% full damage
+"item_physical_damage_pct,0" "3"//30% physical damage
+"item_magic_damage_pct,0" "3"//30% magic damage
+"item_pure_damage_pct,0" "3"//30% pure damage
+//"item_poison_count_pct,0" "3"//100% poison layer applied
+// "item_poison_damage_pct,0" "10"//100% poison damage - the poison damage applied is expressed in the form of poison layers
+//"item_bleed_damage_pct,0" "10"//30% bleeding damage
+//"item_max_health_pct,0" "10"//30% of maximum health
+"item_attack_speed_limit,0" "4"//100 attack speed limit
+
+}
+"pool_transmutation_chest_1"
+{
+"item_chest_02" "1"
+"item_chest_03" "1"
+}
+"pool_transmutation_chest_2"
+{
+"item_chest_04" "1"
+"item_chest_05" "1"
+}
+"pool_transmutation_neutral_item_1"
+{
+"pool_neutral_item_2" "1"
+"pool_neutral_item_3" "1"
+"pool_neutral_item_4" "1"
+}
+"pool_transmutation_neutral_item_2"
+{
+"pool_neutral_item_3" "1"
+"pool_neutral_item_4" "1"
+"pool_neutral_item_5" "1"
+}
+"pool_transmutation_buff_1"
+{
+"item_all_damage_pct" "10"//20% total damage
+"item_physical_damage_pct" "10"//30% physical damage
+"item_magic_damage_pct" "10"//30% magic damage
+"item_pure_damage_pct" "10"//30% pure damage
+"item_poison_count_pct" "10"//100% poison count
+"item_bleed_damage_pct" "10"//30% bleeding damage
+"item_max_health_pct" "10"//30% of maximum health
+"item_attack_speed_limit" "10"//100 attack speed limit
+}
+"pool_transmutation_buff_2"
+{
+"item_all_damage_pct" "10"//20% total damage
+"item_physical_damage_pct" "10"//30% physical damage
+"item_magic_damage_pct" "10"//30% magic damage
+"item_pure_damage_pct" "10"//30% pure damage
+"item_poison_count_pct" "10"//100% poison count
+"item_bleed_damage_pct" "10"//30% bleeding damage
+"item_max_health_pct" "10"//30% of maximum health
+"item_attack_speed_limit" "10"//100 attack speed limit
+}
+"pool_treasure_swap"
+{
+"pool_neutral_item_1" "20"
+"pool_neutral_item_2" "22"
+"pool_neutral_item_3" "11"
+"pool_neutral_item_4" "10"
+"pool_neutral_item_5" "6"
+"fail" "31"
+}
+}

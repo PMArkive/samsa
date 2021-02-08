@@ -1,0 +1,376 @@
+"Reservoirs"
+{
+    // The messenger draws cards
+    "draw_card_1"//500 card draw
+    {
+        "pool_n" "85"//75% got n cards (worth 500)
+        "pool_r" "15"//25% draw R card (worth 1000)
+        "pool_sr" "0"//0% draw SR card
+        "pool_ssr" "0"//0% draw SSR card
+    }
+    "draw_card_2"
+    {
+        "pool_n" "40"//n cards drawn
+        "pool_r" "54"//R card drawn
+        "pool_sr" "5"//Draw an SR card
+        "pool_ssr" "1"//SSR card drawn
+    }
+    "draw_card_3"
+    {
+        "pool_n" "0"//10% got n cards
+        "pool_r" "48"//40% got r card
+        "pool_sr" "42"//35% draw sr card
+        "pool_ssr" "10"//15% draw ssr card
+    }
+
+    "draw_card_bless"
+    {
+        "pool_n" "65"//10% got n cards
+        "pool_r" "31"//40% got r card
+        "pool_sr" "3"//35% draw sr card
+        "pool_ssr" "1"//15% draw ssr card
+    }
+
+    "item_card_1"//White card item draw 1
+    {
+        "pool_n" "73"//75% got n cards (worth 500)
+        "pool_r" "27"//25% draw R card (worth 1000)
+        "pool_sr" "0"//0% draw SR card
+        "pool_ssr" "0"//0% draw SSR card
+    }
+    "item_card_2"////Green card item draw 1
+    {
+        "pool_n" "40"//30% draw n cards
+        "pool_r" "55"//50% draw R card
+        "pool_sr" "10"//15% draw SR card
+        "pool_ssr" "0"//5% draw SSR card
+    }
+    "item_card_3"//Orange card item draw 1
+    {
+        "pool_n" "0"//10% got n cards
+        "pool_r" "40"//40% got r card
+        "pool_sr" "50"//35% draw sr card
+        "pool_ssr" "10"//15% draw ssr card
+    }
+
+    "item_card_4"//Rainbow card items
+    {
+        "pool_n" "0"//0% draw n cards
+        "pool_r" "5"//30% draw r card
+        "pool_sr" "65"//50% draw sr card
+        "pool_ssr" "30"//20% got ssr card
+    }
+
+
+
+    "start_pick"
+    {
+        "pool_ssr" "5"//8% SSR
+        "pool_sr" "95"//92% SR
+        // "pool_start_pick" "100"
+    }
+
+    "start_pick_vip"
+    {
+        "pool_hot_heroes" "100"
+    }
+
+    "item_card_sr"
+    {
+        "pool_ssr" "3"//8% SSR
+        "pool_sr" "97"//92% SR
+    }
+    "elite_bonus_1"//1~10 waves of elite monsters drop into the warehouse
+    {
+        "pool_keys_1" "50"
+        "pool_chests_1" "50"
+    }
+    "elite_bonus_2"//11~20 waves of elite monsters drop into the warehouse
+    {
+        "pool_keys_2" "50"
+        "pool_chests_2" "50"
+    }
+    "elite_bonus_3"//21~30 waves of elite monsters drop into the warehouse
+    {
+        "pool_keys_3" "50"
+        "pool_chests_3" "50"
+    }
+    "elite_bonus_4"//31~40 waves of elite monsters drop into the warehouse
+    {
+        "pool_keys_4" "50"
+        "pool_chests_4" "50"
+    }
+    "elite_bonus_5"//41~55 waves of elite monsters drop into the warehouse
+    {
+        "pool_keys_5" "50"
+        "pool_chests_5" "50"
+    }
+    "chest_1"
+    {
+        "pool_recipe_c" "10"//30% have C-level production book
+        "pool_equip_d" "40"//60% have D-level equipment
+        "pool_equip_c" "20"//10% have C-level equipment
+        "pool_recipe_b" "5"//0% have B-level production book
+        "pool_equip_b" "0"//0% have B-level equipment
+        "pool_recipe_a" "0"//0% have A-level production books
+        "pool_equip_a" "0"//0% have A-level equipment
+        "pool_recipe_s" "0"//0% have S-level production book
+        "pool_equip_s" "0"//0% have S grade equipment
+    }
+    "chest_2"
+    {
+        "pool_recipe_c" "3"//30% have C-level production book
+        "pool_equip_d" "20"//60% have D-level equipment
+        "pool_equip_c" "40"//10% have C-level equipment
+        "pool_recipe_b" "3"//0% have B-level production book
+        "pool_equip_b" "6"//0% have B-level equipment
+        "pool_recipe_a" "3"//0% have A-level production book
+        "pool_equip_a" "0"//0% have A-level equipment
+        "pool_recipe_s" "0"//0% have S-level production book
+        "pool_equip_s" "0"//0% have S grade equipment
+    }
+    "chest_3"
+    {
+        "pool_recipe_c" "0"//30% have C-level production book
+        "pool_equip_d" "0"//60% have D-level equipment
+        "pool_equip_c" "20"//10% have C-level equipment
+        "pool_recipe_b" "0"//0% have B-level production book
+        "pool_equip_b" "40"//0% have B-level equipment
+        "pool_recipe_a" "0"//0% have A-level production books
+        "pool_equip_a" "5"//0% have A-level equipment
+        "pool_recipe_s" "0"//0% have S-level production book
+        "pool_equip_s" "0"//0% have S grade equipment
+    }
+    "chest_4"
+    {
+        "pool_recipe_c" "0"//30% have C-level production book
+        "pool_equip_d" "0"//60% have D-level equipment
+        "pool_equip_c" "0"//10% have C-level equipment
+        "pool_recipe_b" "0"//0% have B-level production book
+        "pool_equip_b" "10"//0% have B-level equipment
+        "pool_recipe_a" "0"//0% have A-level production books
+        "pool_equip_a" "30"//0% have A-level equipment
+        "pool_recipe_s" "5"//0% have S-level production book
+        "pool_equip_s" "3"//0% have S grade equipment
+    }
+    "chest_5"
+    {
+        "pool_recipe_c" "0"//30% have C-level production book
+        "pool_equip_d" "0"//60% have D-level equipment
+        "pool_equip_c" "0"//10% have C-level equipment
+        "pool_recipe_b" "0"//0% have B-level production book
+        "pool_equip_b" "0"//0% have B-level equipment
+        "pool_recipe_a" "0"//0% have A-level production books
+        "pool_equip_a" "50"//0% have A-level equipment
+        "pool_recipe_s" "10"//0% have S-level production book
+        "pool_equip_s" "30"//0% have S grade equipment
+    }
+    // Probability of extra neutral items in Treasure Box 1
+"chest_1_neutral_item"
+{
+"pool_neutral_item_1" "80"
+"pool_neutral_item_2" "20"
+"pool_neutral_item_3" "0"
+"pool_neutral_item_4" "0"
+"pool_neutral_item_5" "0"
+}
+// Probability of additional neutral items in Treasure Box 2
+"chest_2_neutral_item"
+{
+"pool_neutral_item_1" "60"
+"pool_neutral_item_2" "30"
+"pool_neutral_item_3" "10"
+"pool_neutral_item_4" "0"
+"pool_neutral_item_5" "0"
+}
+// Probability of extra neutral items in Treasure Box 3
+"chest_3_neutral_item"
+{
+"pool_neutral_item_1" "10"
+"pool_neutral_item_2" "30"
+"pool_neutral_item_3" "40"
+"pool_neutral_item_4" "15"
+"pool_neutral_item_5" "5"
+}
+// Probability of extra neutral items in Treasure Box 4
+"chest_4_neutral_item"
+{
+"pool_neutral_item_1" "0"
+"pool_neutral_item_2" "0"
+"pool_neutral_item_3" "30"
+"pool_neutral_item_4" "50"
+"pool_neutral_item_5" "20"
+}
+// Probability of extra neutral items in Treasure Box 5
+"chest_5_neutral_item"
+{
+"pool_neutral_item_1" "0"
+"pool_neutral_item_2" "0"
+"pool_neutral_item_3" "0"
+"pool_neutral_item_4" "20"
+"pool_neutral_item_5" "80"
+}
+//Normal and neutral item pool
+"chest_1_and_neutral_item"
+{
+ "pool_recipe_c" "10"//30% have C-level production book
+        "pool_equip_d" "40"//60% have D-level equipment
+        "pool_equip_c" "20"//10% have C-level equipment
+        "pool_recipe_b" "5"//0% have B-level production book
+        "pool_equip_b" "0"//0% have B-level equipment
+        "pool_recipe_a" "0"//0% have A-level production books
+        "pool_equip_a" "0"//0% have A-level equipment
+        "pool_recipe_s" "0"//0% have S-level production book
+        "pool_equip_s" "0"//0% have S grade equipment
+"pool_neutral_item_1" "40"
+"pool_neutral_item_2" "20"
+"pool_neutral_item_3" "0"
+"pool_neutral_item_4" "0"
+"pool_neutral_item_5" "0"
+}
+//Normal and neutral item pool
+"chest_2_and_neutral_item"
+{
+ "pool_recipe_c" "3"//30% have C-level production book
+        "pool_equip_d" "20"//60% have D-level equipment
+        "pool_equip_c" "40"//10% have C-level equipment
+        "pool_recipe_b" "3"//0% have B-level production book
+        "pool_equip_b" "6"//0% have B-level equipment
+        "pool_recipe_a" "3"//0% have A-level production book
+        "pool_equip_a" "0"//0% have A-level equipment
+        "pool_recipe_s" "0"//0% have S-level production book
+        "pool_equip_s" "0"//0% have S grade equipment
+"pool_neutral_item_1" "40"
+"pool_neutral_item_2" "20"
+"pool_neutral_item_3" "10"
+"pool_neutral_item_4" "0"
+"pool_neutral_item_5" "0"
+}
+//Normal and neutral item pool
+"chest_3_and_neutral_item"
+{
+ "pool_recipe_c" "0"//30% have C-level production book
+        "pool_equip_d" "0"//60% have D-level equipment
+        "pool_equip_c" "20"//10% have C-level equipment
+        "pool_recipe_b" "10"//0% have B-level production book
+        "pool_equip_b" "40"//0% have B-level equipment
+        "pool_recipe_a" "10"//0% have A-level production book
+        "pool_equip_a" "5"//0% have A-level equipment
+        "pool_recipe_s" "0"//0% have S-level production book
+        "pool_equip_s" "0"//0% have S grade equipment
+"pool_neutral_item_1" "10"
+"pool_neutral_item_2" "20"
+"pool_neutral_item_3" "30"
+"pool_neutral_item_4" "10"
+"pool_neutral_item_5" "0"
+}
+//Normal and neutral item pool
+"chest_4_and_neutral_item"
+{
+ "pool_recipe_c" "0"//30% have C-level production book
+        "pool_equip_d" "0"//60% have D-level equipment
+        "pool_equip_c" "0"//10% have C-level equipment
+        "pool_recipe_b" "0"//0% have B-level production book
+        "pool_equip_b" "10"//0% have B-level equipment
+        "pool_recipe_a" "0"//0% have A-level production books
+        "pool_equip_a" "30"//0% have A-level equipment
+        "pool_recipe_s" "5"//0% have S-level production book
+        "pool_equip_s" "3"//0% have S grade equipment
+"pool_neutral_item_1" "0"
+"pool_neutral_item_2" "0"
+"pool_neutral_item_3" "30"
+"pool_neutral_item_4" "40"
+"pool_neutral_item_5" "10"
+}
+//Normal and neutral item pool
+"chest_5_and_neutral_item"
+{
+ "pool_recipe_c" "0"//30% have C-level production book
+        "pool_equip_d" "0"//60% have D-level equipment
+        "pool_equip_c" "0"//10% have C-level equipment
+        "pool_recipe_b" "0"//0% have B-level production book
+        "pool_equip_b" "0"//0% have B-level equipment
+        "pool_recipe_a" "30"//0% have A-level production book
+        "pool_equip_a" "50"//0% have A-level equipment
+        "pool_recipe_s" "10"//0% have S-level production book
+        "pool_equip_s" "30"//0% have S grade equipment
+"pool_neutral_item_1" "0"
+"pool_neutral_item_2" "0"
+"pool_neutral_item_3" "0"
+"pool_neutral_item_4" "30"
+"pool_neutral_item_5" "40"
+}
+    // Rewards for every 50 levels in endless mode
+    // If you give the item directly, use a,1;b,1;c,1 to write the reward
+    // Other randomly given one, fill in the pool name in pools.kv
+    "endless_reward_items"
+    {
+        "pool_neutral_item_4" "10"
+        "pool_neutral_item_5" "10"
+        "item_key_04,1;item_chest_04,1" "10"
+        "item_key_05,1;item_chest_05,1" "10"
+        "pool_equip_s" "10"
+        "item_ring_of_disaster,1" "10"
+        "item_apotheosis_blade,1" "10"
+        "item_holy_cape,1" "10"
+        "item_tome_of_stats_10,50" "16"
+        "item_tome_of_stats_10,100" "10"
+        "item_tome_of_stats_10,200" "4"
+        "item_chesse_custom,1" "10"
+    }
+//Mid-term boss 1 level reward
+"mid_boss_reward_1"
+{
+"pool_neutral_item_1" "10"//Level 1 neutral equipment
+"item_gold,100000" "10"/100 thousand gold coins
+"item_crystal,50" "10"//50 soul crystal
+"item_chest_03,1" "10"//A silver treasure chest
+"item_draw_card_3,1" "10"//Xuanhuang Summoning Card
+"pool_equip_a" "10"//A random two-star equipment
+"item_card_02,1" "10"//Random R card
+"item_card_01,1" "10"//Random N card
+"item_tome_of_energy,10" "10"//10 energy books
+}
+////Mid-term boss 2 rewards
+"mid_boss_reward_2"
+{
+"item_card_sr,1" "10"//specify sr card
+"pool_ssr" "10"//random ssr hero
+"item_crystal,100" "10"//100 soul crystal
+"item_gold,200000" "10"//200,000 gold coins
+"pool_neutral_item_3" "10"//Random three-level neutral equipment
+"item_tome_of_stats_10,10" "10"//10 property books
+"pool_sr" "10"//random sr hero
+"item_card_04,1" "10"//Rainbow card
+"item_random_qualification,1" "10"//Change the attendant card
+"pool_neutral_item_2" "10"//Random secondary neutral items
+}
+//Mid-term boss level 3 reward
+"mid_boss_reward_3"
+{
+"item_crystal,300" "8"//300 soul crystal
+"item_chest_04,1" "12"//Emerald Treasure Box
+"pool_neutral_item_4" "10"//Random level 4 neutral items
+"item_tome_of_stats_10,30" "14"//30 property books
+"item_apotheosis_blade,1" "10"//The unblocked blade of the gods
+"item_ring_of_disaster,1" "10"//The Ring of Disaster has been unblocked
+"item_holy_cape,1" "10"//The unsealed holy cape
+}
+//Mid-term boss level four reward
+"mid_boss_reward_4"
+{
+"item_crystal,500" "8"//500 soul crystal
+"item_chest_05,1" "12"//Golden Treasure Box
+"item_tome_of_stats_10,50" "14"//50 property books
+"pool_equip_s" "10"//A random piece of red equipment
+"item_card_ssr,1" "5"//Specify a ssr card
+"item_chesse_custom,1" "15"//One cheese
+}
+//Medium boss level five reward
+"mid_boss_reward_5"
+{
+"item_tome_of_stats_10,400" "10"//400 property books
+"item_crystal,1000" "8"//1000 soul crystal
+"pool_neutral_item_5" "12"//Random level five neutral items
+}
+}

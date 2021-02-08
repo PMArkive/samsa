@@ -1,0 +1,71 @@
+KeyValue
+{
+pool_elite_boos_1
+{
+wave_elite_boss_r 1
+}
+pool_elite_boos_2
+{
+wave_elite_boss_sr 1
+}
+pool_elite_boos_3
+{
+wave_elite_boss_ssr 1
+}
+pool_elite_boos_reward_1
+{
+item_gold_summon_round_times,0 101000summon timescurrent wave
+item_xp_summon_round_times,0 102000summon timescurrent wave
+item_per_gold_summon_round_times,0 108Number of summonsCurrent wave of gold coins per second
+item_card_02,1 10Random R card
+item_card_03,1 8Random golden draw card
+pool_equip_a 10A random two-star equipment
+pool_neutral_item_1 10Level 1 neutral equipment
+
+}
+pool_elite_boos_reward_2
+{
+pool_equip_s 10A random piece of red equipment
+pool_neutral_item_2 10Random secondary neutral items
+pool_neutral_item_3 10Random three-level neutral equipment
+item_chest_03,1 10Golden Treasure Box
+item_chest_04,1 10Emerald Treasure Box
+item_tome_of_stats_10,10-40 1010-30 property books
+}
+pool_elite_boos_reward_3
+{
+pool_neutral_item_4 12Random level 4 neutral items
+pool_neutral_item_5 5Random level five neutral items
+item_no_hero_limit,0 3The upper limit of population of ordinary tower
+item_hero_limit,0 2Hero tower population limit
+item_all_damage_pct,0 1020% full damage
+item_physical_damage_pct,0 1030% physical damage
+item_magic_damage_pct,0 1030% magic damage
+item_pure_damage_pct,0 1030% pure damage
+item_poison_count_pct,0 1230% of the poison layer applied
+item_bleed_damage_pct,0 1230% bleeding damage
+item_max_health_pct,0 1230% of maximum health
+item_attack_speed_limit,0 12100 attack speed limit
+item_gold_limit,0 101 million gold coin limit
+ item_poison_damage_pct,0 10100% poison damage - the poison damage applied is expressed in the form of poison layers
+}
+pool_elite_boos_ability
+{
+gallant_leap 10
+protective_hand 10
+spell_block 10
+state_resistance 10
+escort 10
+secret_blessing 10
+ridicule 10
+colony_tp 10
+necromancy 10
+trample 10
+rejuvenation 10
+shield 10
+armor 10
+split 10
+seal 0
+lost_position 10
+}
+}
