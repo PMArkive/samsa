@@ -3,7 +3,7 @@
 // @name           RED YADG
 // @description    This script provides integration with online description generator YADG (http://yadg.cc) - Credit to Slack06
 // @license        https://github.com/SavageCore/yadg-pth-userscript/blob/master/LICENSE
-// @version        1.8.3
+// @version        1.8.3.1
 // @namespace      yadg
 // @grant          GM_xmlhttpRequest
 // @grant          GM.xmlHttpRequest
@@ -27,7 +27,6 @@
 // @include        http*://*d3si.net/requests.php*
 // @include        http*://*d3si.net/torrents.php*
 // @include        http*://*jpopsuki.eu/upload.php*
-// @updateURL      https://github.com/SavageCore/yadg-pth-userscript/raw/master/pth_yadg.meta.js
 // @downloadURL    https://github.com/SavageCore/yadg-pth-userscript/raw/master/pth_yadg.user.js
 // ==/UserScript==
 
@@ -1778,7 +1777,7 @@ factory = {
 				break;
 			}
 				case 'jps_upload': {
-				const rdate = document.querySelector('#artist_tr');
+				const rdate = document.querySelector('#upload_table');
 				rdate.parentNode.insertBefore(element, rdate);
 				break;
 			}
