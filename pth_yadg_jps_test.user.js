@@ -27,7 +27,6 @@
 // @include        http*://*d3si.net/requests.php*
 // @include        http*://*d3si.net/torrents.php*
 // @include        http*://*jpopsuki.eu/upload.php*
-// @downloadURL    https://github.com/SavageCore/yadg-pth-userscript/raw/master/pth_yadg.user.js
 // ==/UserScript==
 
 // --------- USER SETTINGS START ---------
