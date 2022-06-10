@@ -1,6 +1,6 @@
 // ==UserScript==
-// @id             pth-yadg
-// @name           RED YADG
+// @name           jps YADG
+// @id             jps-yadg
 // @description    This script provides integration with online description generator YADG (http://yadg.cc) - Credit to Slack06
 // @license        https://github.com/SavageCore/yadg-pth-userscript/blob/master/LICENSE
 // @version        1.8.3.1
@@ -9,23 +9,6 @@
 // @grant          GM.xmlHttpRequest
 // @require        https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // @require        https://yadg.cc/static/js/jsandbox.min.js
-// @include        http*://*redacted.ch/upload.php*
-// @include        http*://*redacted.ch/requests.php*
-// @include        http*://*redacted.ch/torrents.php*
-// @include        http*://*orpheus.network/upload.php*
-// @include        http*://*orpheus.network/requests.php*
-// @include        http*://*orpheus.network/torrents.php*
-// @include        http*://*notwhat.cd/upload.php*
-// @include        http*://*notwhat.cd/requests.php*
-// @include        http*://*notwhat.cd/torrents.php*
-// @include        http*://*dicmusic.club/upload.php*
-// @include        http*://*dicmusic.club/requests.php*
-// @include        http*://*dicmusic.club/torrents.php*
-// @include        http*://*waffles.ch/upload.php*
-// @include        http*://*waffles.ch/requests.php*
-// @include        http*://*d3si.net/upload.php*
-// @include        http*://*d3si.net/requests.php*
-// @include        http*://*d3si.net/torrents.php*
 // @include        http*://*jpopsuki.eu/upload.php*
 // ==/UserScript==
 
@@ -789,7 +772,6 @@ factory = {
 	KEY_REPLACE_DESCRIPTION: 'replaceDescriptionOn',
 	KEY_SETTINGS_INIT_VER: 'settingsInitializedVer',
 	KEY_FETCH_IMAGE: 'fetchImage',
-	KEY_AUTO_PREVIEW: 'autoPreview',
 	KEY_AUTO_REHOST: 'autoRehost',
 	KEY_AUTO_SELECT_SCRAPER: 'autoSelectScraper',
 	KEY_COVER_SIZE: 'coverSize',
@@ -1106,9 +1088,6 @@ factory = {
 		return document.querySelector('#yadg_options_rehost');
 	},
 
-	getAutoPreviewCheckbox() {
-		return document.querySelector('#yadg_options_preview');
-	},
 
 	getAutoSelectScraperCheckbox() {
 		return document.querySelector('#yadg_options_auto_select_scraper');
@@ -1184,7 +1163,6 @@ factory = {
 			factory.getReplaceDescriptionSettingKey(),
 		);
 		const fetchImage = yadgUtil.settings.getItem(factory.KEY_FETCH_IMAGE);
-		const autoPreview = yadgUtil.settings.getItem(factory.KEY_AUTO_PREVIEW);
 		autoRehost = yadgUtil.settings.getItem(factory.KEY_AUTO_REHOST);
 		const autoSelectScraper = yadgUtil.settings.getItem(
 			factory.KEY_AUTO_SELECT_SCRAPER,
@@ -1213,10 +1191,6 @@ factory = {
 			}
 		}
 
-		if (autoPreview) {
-			const autoPreviewCheckbox = factory.getAutoPreviewCheckbox();
-			autoPreviewCheckbox.checked = true;
-		}
 
 		if (autoSelectScraper) {
 			const autoSelectScraperCheckbox = factory.getAutoSelectScraperCheckbox();
@@ -1244,7 +1218,6 @@ factory = {
 		const replaceDescCheckbox = factory.getReplaceDescriptionCheckbox();
 		const fetchImageCheckbox = factory.getFetchImageCheckbox();
 		const autoRehostCheckbox = factory.getAutoRehostCheckbox();
-		const autoPreviewCheckbox = factory.getAutoPreviewCheckbox();
 		const autoSelectScraperCheckbox = factory.getAutoSelectScraperCheckbox();
 		const coverSize = factory.getCoverSize();
 
@@ -1257,7 +1230,6 @@ factory = {
 		const replaceDescription = replaceDescCheckbox.checked;
 		const fetchImage = fetchImageCheckbox.checked;
 		const autoSelectScraper = autoSelectScraperCheckbox.checked;
-		const autoPreview = autoPreviewCheckbox.checked;
 		if (autoRehostCheckbox) {
 			autoRehost = autoRehostCheckbox.checked;
 		}
@@ -1333,12 +1305,6 @@ factory = {
 			yadgUtil.settings.removeItem(factory.KEY_AUTO_REHOST);
 		}
 
-		if (autoPreview) {
-			yadgUtil.settings.addItem(factory.KEY_AUTO_PREVIEW, true);
-		} else {
-			yadgUtil.settings.removeItem(factory.KEY_AUTO_PREVIEW);
-		}
-
 		if (autoSelectScraper) {
 			yadgUtil.settings.addItem(factory.KEY_AUTO_SELECT_SCRAPER, true);
 		} else {
@@ -1371,12 +1337,6 @@ factory = {
 				continue;
 			}
 
-			const div = box.parentNode.nextSibling.nextSibling;
-			const button = div.firstChild.nextSibling;
-			const autoPreviewChecked = factory.getAutoPreviewCheckbox().checked;
-			if (button && autoPreviewChecked) {
-				button.click();
-			}
 		}
 	},
 
@@ -1603,7 +1563,6 @@ factory = {
 				+= '<div id="yadg_options_rehost_div"><input type="checkbox" name="yadg_options_rehost" id="yadg_options_rehost" /> <label for="yadg_options_rehost" id="yadg_options_rehost_label">Auto rehost with <a href="https://redacted.ch/forums.php?action=viewthread&threadid=1992">[User Script] PTPIMG URL uploader</a></label></div>';
 		}
 
-		optionsHTML += '<div id="yadg_options_preview_div"><input type="checkbox" name="yadg_options_preview" id="yadg_options_preview" /> <label for="yadg_options_preview" id="yadg_options_preview_label">Auto preview description</label></div>';
 		optionsHTML += '<div id="yadg_options_auto_select_scraper_div"><input type="checkbox" name="yadg_options_auto_select_scraper" id="yadg_options_auto_select_scraper"/><label for="yadg_options_auto_select_scraper" id="yadg_options_auto_select_scraper_label">Auto select the correct scraper when pasting the URL</label></div>		';
 		optionsHTML += '<div id="yadg_options_links"><a id="yadg_save_settings" href="#" title="Save the currently selected scraper and template as default for this site and save the given API token.">Save settings</a> <span class="yadg_separator">|</span> <a id="yadg_clear_cache" href="#">Clear cache</a></div></div>';
 		const inputHTML = '<input type="text" name="yadg_input" id="yadg_input" size="60" />';
