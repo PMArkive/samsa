@@ -3,7 +3,7 @@
 // @id             jps-yadg
 // @description    This script provides integration with online description generator YADG (http://yadg.cc) - Credit to Slack06
 // @license        https://github.com/SavageCore/yadg-pth-userscript/blob/master/LICENSE
-// @version        1.8.3.2
+// @version        1.8.3.3
 // @namespace      yadg
 // @grant          GM_xmlhttpRequest
 // @grant          GM.xmlHttpRequest
@@ -23,7 +23,7 @@ You can find a list of available templates at: https://yadg.cc/api/v2/templates/
 */
 const defaultPTHFormat = 5;
 const defaultWafflesFormat = 9;
-const defaultPTHTarget = 'other';
+const defaultPTHTarget = 'original';
 const defaultPTHDescriptionTarget = 'album';
 let yadg; // eslint-disable-line prefer-const
 let factory; // eslint-disable-line prefer-const
